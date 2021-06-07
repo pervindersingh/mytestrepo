@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PlatformUsername",
+    "entityId" : "d80834b9-d375-4559-9798-83eeb63be329",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "d80834b9-d375-4559-9798-83eeb63be329",
+    "validateInput" : true,
+    "usernameAttribute" : "userName",
+    "_type" : {
+      "_id" : "ValidatedUsernameNode",
+      "name" : "Platform Username",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

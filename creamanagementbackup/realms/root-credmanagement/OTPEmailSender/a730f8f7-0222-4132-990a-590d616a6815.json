@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "OTPEmailSender",
+    "entityId" : "a730f8f7-0222-4132-990a-590d616a6815",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "a730f8f7-0222-4132-990a-590d616a6815",
+    "password" : null,
+    "hostName" : "mail.example.com",
+    "emailAttribute" : "mail",
+    "hostPort" : 25,
+    "smsGatewayImplementationClass" : "com.sun.identity.authentication.modules.hotp.DefaultSMSGatewayImpl",
+    "sslOption" : "SSL",
+    "fromEmailAddress" : "admin@example.com",
+    "username" : "admin@example.com",
+    "_type" : {
+      "_id" : "OneTimePasswordSmtpSenderNode",
+      "name" : "OTP Email Sender",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

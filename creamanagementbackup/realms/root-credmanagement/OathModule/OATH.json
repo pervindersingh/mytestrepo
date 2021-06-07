@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "OathModule",
+    "entityId" : "OATH",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "OATH",
+    "authenticationLevel" : 0,
+    "forgerock-oath-maximum-clock-drift" : 0,
+    "timeStepSize" : 30,
+    "passwordLength" : "6",
+    "stepsInWindow" : 2,
+    "oathOtpMaxRetry" : 3,
+    "oathAlgorithm" : "HOTP",
+    "hotpWindowSize" : 100,
+    "truncationOffset" : -1,
+    "addChecksum" : "False",
+    "minimumSecretKeyLength" : "32",
+    "forgerock-oath-sharedsecret-implementation-class" : "org.forgerock.openam.authentication.modules.oath.plugins.DefaultSharedSecretProvider",
+    "_type" : {
+      "_id" : "oath",
+      "name" : "OATH",
+      "collection" : true
+    }
+  }
+}

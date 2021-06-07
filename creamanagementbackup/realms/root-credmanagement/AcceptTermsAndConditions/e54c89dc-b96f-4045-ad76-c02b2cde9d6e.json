@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AcceptTermsAndConditions",
+    "entityId" : "e54c89dc-b96f-4045-ad76-c02b2cde9d6e",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "e54c89dc-b96f-4045-ad76-c02b2cde9d6e",
+    "_type" : {
+      "_id" : "AcceptTermsAndConditionsNode",
+      "name" : "Accept Terms and Conditions",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

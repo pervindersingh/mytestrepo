@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "DataStoreDecision",
+    "entityId" : "16cdb6ff-cbc2-43e4-9f92-89e8e4973798",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "16cdb6ff-cbc2-43e4-9f92-89e8e4973798",
+    "_type" : {
+      "_id" : "DataStoreDecisionNode",
+      "name" : "Data Store Decision",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "true",
+      "displayName" : "True"
+    }, {
+      "id" : "false",
+      "displayName" : "False"
+    } ]
+  }
+}

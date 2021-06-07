@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "IncrementLoginCount",
+    "entityId" : "639805b9-289f-4d03-b488-2fc0612e644e",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "639805b9-289f-4d03-b488-2fc0612e644e",
+    "identityAttribute" : "userName",
+    "_type" : {
+      "_id" : "IncrementLoginCountNode",
+      "name" : "Increment Login Count",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

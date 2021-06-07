@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "CreateObject",
+    "entityId" : "be420620-03ae-498c-8e1a-06e23750fe9a",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "be420620-03ae-498c-8e1a-06e23750fe9a",
+    "identityResource" : "managed/user",
+    "_type" : {
+      "_id" : "CreateObjectNode",
+      "name" : "Create Object",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "CREATED",
+      "displayName" : "Created"
+    }, {
+      "id" : "FAILURE",
+      "displayName" : "Failed"
+    } ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "Facebook-ProvisionIDMAccount",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "Facebook-ProvisionIDMAccount",
+    "description" : "null",
+    "entryNodeId" : "925766ac-2e08-4f8b-9115-47479db5efe4",
+    "uiConfig" : { },
+    "nodes" : {
+      "925766ac-2e08-4f8b-9115-47479db5efe4" : {
+        "displayName" : "Facebook Social Authentication",
+        "nodeType" : "SocialFacebookNode",
+        "connections" : {
+          "NO_ACCOUNT" : "83d387af-deb2-41be-a95b-b9938d518dc3",
+          "ACCOUNT_EXISTS" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "83d387af-deb2-41be-a95b-b9938d518dc3" : {
+        "displayName" : "Provision IDM Account",
+        "nodeType" : "ProvisionIdmAccountNode",
+        "connections" : {
+          "outcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    },
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 47.29999923706055
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 555.6374969482422,
+        "y" : 47.29999923706055
+      }
+    }
+  }
+}

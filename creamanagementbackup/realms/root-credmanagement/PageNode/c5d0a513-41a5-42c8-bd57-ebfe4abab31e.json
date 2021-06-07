@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PageNode",
+    "entityId" : "c5d0a513-41a5-42c8-bd57-ebfe4abab31e",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "c5d0a513-41a5-42c8-bd57-ebfe4abab31e",
+    "stage" : "null",
+    "pageHeader" : {
+      "en" : "Reset Password"
+    },
+    "nodes" : [ {
+      "_id" : "fd31829a-6c6a-474e-84ca-1b817c0f8f12",
+      "nodeType" : "AttributeCollectorNode",
+      "displayName" : "Attribute Collector"
+    } ],
+    "pageDescription" : {
+      "en" : "Enter your email address or <a href=\"#/service/PlatformLogin\">Sign in</a>"
+    },
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "Page Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

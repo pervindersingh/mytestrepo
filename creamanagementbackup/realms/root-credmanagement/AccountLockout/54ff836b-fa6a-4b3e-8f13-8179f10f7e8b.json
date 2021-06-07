@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AccountLockout",
+    "entityId" : "54ff836b-fa6a-4b3e-8f13-8179f10f7e8b",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "54ff836b-fa6a-4b3e-8f13-8179f10f7e8b",
+    "lockAction" : "LOCK",
+    "_type" : {
+      "_id" : "AccountLockoutNode",
+      "name" : "Account Lockout",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

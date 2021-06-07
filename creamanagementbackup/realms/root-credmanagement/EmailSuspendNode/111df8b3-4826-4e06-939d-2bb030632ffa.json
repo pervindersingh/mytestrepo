@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "EmailSuspendNode",
+    "entityId" : "111df8b3-4826-4e06-939d-2bb030632ffa",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "111df8b3-4826-4e06-939d-2bb030632ffa",
+    "emailSuspendMessage" : {
+      "en" : "An email has been sent to the address you entered. Click the link in that email to proceed."
+    },
+    "objectLookup" : true,
+    "emailTemplateName" : "forgottenUsername",
+    "emailAttribute" : "mail",
+    "identityAttribute" : "mail",
+    "_type" : {
+      "_id" : "EmailSuspendNode",
+      "name" : "Email Suspend Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

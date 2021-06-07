@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PatchObject",
+    "entityId" : "a31f6451-6803-4c62-a49d-e1508daf0c53",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "a31f6451-6803-4c62-a49d-e1508daf0c53",
+    "ignoredFields" : [ ],
+    "identityAttribute" : "userName",
+    "patchAsObject" : false,
+    "identityResource" : "managed/user",
+    "_type" : {
+      "_id" : "PatchObjectNode",
+      "name" : "Patch Object",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "PATCHED",
+      "displayName" : "Patched"
+    }, {
+      "id" : "FAILURE",
+      "displayName" : "Failed"
+    } ]
+  }
+}

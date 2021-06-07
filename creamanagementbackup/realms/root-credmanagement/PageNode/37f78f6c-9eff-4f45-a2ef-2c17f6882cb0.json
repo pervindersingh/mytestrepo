@@ -1,0 +1,49 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PageNode",
+    "entityId" : "37f78f6c-9eff-4f45-a2ef-2c17f6882cb0",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "37f78f6c-9eff-4f45-a2ef-2c17f6882cb0",
+    "pageDescription" : {
+      "en" : "Signing up is fast and easy.<br>Already have an account?<a href='#/service/PlatformLogin'>Sign In</a>"
+    },
+    "nodes" : [ {
+      "_id" : "d80834b9-d375-4559-9798-83eeb63be329",
+      "nodeType" : "ValidatedUsernameNode",
+      "displayName" : "Platform Username"
+    }, {
+      "_id" : "011d5354-b91c-4813-8068-b8c06ff64ec9",
+      "nodeType" : "AttributeCollectorNode",
+      "displayName" : "Attribute Collector"
+    }, {
+      "_id" : "4aa51c8d-83e2-42f7-b4a8-06b900379b80",
+      "nodeType" : "ValidatedPasswordNode",
+      "displayName" : "Platform Password"
+    }, {
+      "_id" : "0ca3fed6-1f72-4796-9561-b7954d3d1575",
+      "nodeType" : "KbaCreateNode",
+      "displayName" : "KBA Definition"
+    }, {
+      "_id" : "e54c89dc-b96f-4045-ad76-c02b2cde9d6e",
+      "nodeType" : "AcceptTermsAndConditionsNode",
+      "displayName" : "Accept Terms and Conditions"
+    } ],
+    "stage" : "null",
+    "pageHeader" : {
+      "en" : "Sign Up"
+    },
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "Page Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

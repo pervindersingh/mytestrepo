@@ -1,0 +1,48 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "PlatformProgressiveProfile",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "PlatformProgressiveProfile",
+    "entryNodeId" : "ab477786-0807-4c94-9f4e-72650657ac64",
+    "uiConfig" : { },
+    "nodes" : {
+      "ab477786-0807-4c94-9f4e-72650657ac64" : {
+        "displayName" : "Login Count Decision",
+        "nodeType" : "LoginCountDecisionNode",
+        "connections" : {
+          "true" : "a8383f1f-d8d5-42a6-ad54-588314aeefad",
+          "false" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "a8383f1f-d8d5-42a6-ad54-588314aeefad" : {
+        "displayName" : "Query Filter Decision",
+        "nodeType" : "QueryFilterDecisionNode",
+        "connections" : {
+          "true" : "46d77e38-cb43-4f70-a07b-15dcf1170700",
+          "false" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "46d77e38-cb43-4f70-a07b-15dcf1170700" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "connections" : {
+          "outcome" : "a31f6451-6803-4c62-a49d-e1508daf0c53"
+        }
+      },
+      "a31f6451-6803-4c62-a49d-e1508daf0c53" : {
+        "displayName" : "Patch Object",
+        "nodeType" : "PatchObjectNode",
+        "connections" : {
+          "PATCHED" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "FAILURE" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    },
+    "description" : "Prompt for missing preferences on 3rd login"
+  }
+}

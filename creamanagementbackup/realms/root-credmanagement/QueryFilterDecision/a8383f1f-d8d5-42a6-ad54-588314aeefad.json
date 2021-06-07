@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "QueryFilterDecision",
+    "entityId" : "a8383f1f-d8d5-42a6-ad54-588314aeefad",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "a8383f1f-d8d5-42a6-ad54-588314aeefad",
+    "queryFilter" : "!(/preferences pr) or /preferences/marketing eq false or /preferences/updates eq false",
+    "identityAttribute" : "userName",
+    "_type" : {
+      "_id" : "QueryFilterDecisionNode",
+      "name" : "Query Filter Decision",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "true",
+      "displayName" : "True"
+    }, {
+      "id" : "false",
+      "displayName" : "False"
+    } ]
+  }
+}

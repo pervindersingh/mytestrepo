@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PageNode",
+    "entityId" : "383526f6-ff73-4e26-9272-2aa2a5359380",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "383526f6-ff73-4e26-9272-2aa2a5359380",
+    "pageHeader" : { },
+    "pageDescription" : { },
+    "nodes" : [ {
+      "_id" : "20a345f3-609f-4bc8-9cb0-7060a3395ca1",
+      "nodeType" : "UsernameCollectorNode",
+      "displayName" : "Username Collector"
+    } ],
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "Page Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

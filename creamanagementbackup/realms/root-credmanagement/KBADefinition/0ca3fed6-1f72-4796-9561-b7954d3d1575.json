@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "KBADefinition",
+    "entityId" : "0ca3fed6-1f72-4796-9561-b7954d3d1575",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "0ca3fed6-1f72-4796-9561-b7954d3d1575",
+    "message" : {
+      "en" : "Select a security question"
+    },
+    "_type" : {
+      "_id" : "KbaCreateNode",
+      "name" : "KBA Definition",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

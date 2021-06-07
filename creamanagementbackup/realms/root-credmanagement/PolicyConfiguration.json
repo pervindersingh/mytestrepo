@@ -1,0 +1,34 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PolicyConfiguration",
+    "entityId" : "PolicyConfiguration",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "maximumSearchResults" : 100,
+    "usersBaseDn" : "dc=openam,dc=forgerock,dc=org",
+    "realmSearchFilter" : "(objectclass=sunismanagedorganization)",
+    "usersSearchFilter" : "(objectclass=inetorgperson)",
+    "checkIfResourceTypeExists" : true,
+    "searchTimeout" : 5,
+    "policyHeartbeatTimeUnit" : "SECONDS",
+    "bindDn" : "cn=Directory Manager",
+    "usersSearchAttribute" : "uid",
+    "subjectsResultTTL" : 10,
+    "connectionPoolMaximumSize" : 10,
+    "usersSearchScope" : "SCOPE_SUB",
+    "sslEnabled" : true,
+    "ldapServer" : [ "openam.example.com:50636" ],
+    "connectionPoolMinimumSize" : 1,
+    "userAliasEnabled" : false,
+    "policyHeartbeatInterval" : 10,
+    "_type" : {
+      "_id" : "policyconfiguration",
+      "name" : "Policy Configuration",
+      "collection" : false
+    }
+  }
+}

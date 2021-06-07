@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PasswordCollector",
+    "entityId" : "e20baf62-6b45-43b7-a5dc-5cba2f13f70c",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "e20baf62-6b45-43b7-a5dc-5cba2f13f70c",
+    "_type" : {
+      "_id" : "PasswordCollectorNode",
+      "name" : "Password Collector",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

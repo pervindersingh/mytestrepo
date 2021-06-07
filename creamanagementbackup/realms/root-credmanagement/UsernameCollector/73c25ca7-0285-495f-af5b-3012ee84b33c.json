@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "UsernameCollector",
+    "entityId" : "73c25ca7-0285-495f-af5b-3012ee84b33c",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "73c25ca7-0285-495f-af5b-3012ee84b33c",
+    "_type" : {
+      "_id" : "UsernameCollectorNode",
+      "name" : "Username Collector",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "ProvisionDynamicAccount",
+    "entityId" : "2f698b97-5eef-4524-bf9d-8f593420d82a",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "2f698b97-5eef-4524-bf9d-8f593420d82a",
+    "accountProviderClass" : "org.forgerock.openam.authentication.modules.common.mapping.DefaultAccountProvider",
+    "_type" : {
+      "_id" : "ProvisionDynamicAccountNode",
+      "name" : "Provision Dynamic Account",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

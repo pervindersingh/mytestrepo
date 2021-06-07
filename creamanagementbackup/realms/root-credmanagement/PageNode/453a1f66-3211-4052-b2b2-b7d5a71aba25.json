@@ -1,0 +1,37 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PageNode",
+    "entityId" : "453a1f66-3211-4052-b2b2-b7d5a71aba25",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "453a1f66-3211-4052-b2b2-b7d5a71aba25",
+    "pageHeader" : {
+      "en" : "Sign In"
+    },
+    "nodes" : [ {
+      "_id" : "75945017-4389-4462-b955-f6caa9b51076",
+      "nodeType" : "ValidatedUsernameNode",
+      "displayName" : "Platform Username"
+    }, {
+      "_id" : "3be10c72-a53e-4317-b78f-a5d25671f2c2",
+      "nodeType" : "ValidatedPasswordNode",
+      "displayName" : "Platform Password"
+    } ],
+    "stage" : "null",
+    "pageDescription" : {
+      "en" : "New here? <a href=\"#/service/PlatformRegistration\">Create an account</a><br><a href=\"#/service/PlatformForgottenUsername\">Forgot username?</a><a href=\"#/service/PlatformResetPassword\"> Forgot password?</a>"
+    },
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "Page Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

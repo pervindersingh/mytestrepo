@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PageNode",
+    "entityId" : "4a78e3ce-28de-441a-9c1e-376614d3b586",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "4a78e3ce-28de-441a-9c1e-376614d3b586",
+    "pageHeader" : { },
+    "pageDescription" : { },
+    "nodes" : [ {
+      "_id" : "be79610a-1222-40cb-b943-f4d898c7f6a3",
+      "nodeType" : "UsernameCollectorNode",
+      "displayName" : "Username Collector"
+    }, {
+      "_id" : "9cca8cb7-c67a-4a7e-9420-e28a985fbd17",
+      "nodeType" : "PasswordCollectorNode",
+      "displayName" : "Password Collector"
+    } ],
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "Page Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

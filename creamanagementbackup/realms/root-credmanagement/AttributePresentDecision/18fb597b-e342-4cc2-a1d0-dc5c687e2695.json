@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AttributePresentDecision",
+    "entityId" : "18fb597b-e342-4cc2-a1d0-dc5c687e2695",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "18fb597b-e342-4cc2-a1d0-dc5c687e2695",
+    "presentAttribute" : "password",
+    "identityAttribute" : "userName",
+    "_type" : {
+      "_id" : "AttributePresentDecisionNode",
+      "name" : "Attribute Present Decision",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "true",
+      "displayName" : "True"
+    }, {
+      "id" : "false",
+      "displayName" : "False"
+    } ]
+  }
+}

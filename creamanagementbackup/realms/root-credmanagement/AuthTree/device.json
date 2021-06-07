@@ -1,0 +1,44 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "device",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "device",
+    "entryNodeId" : "383526f6-ff73-4e26-9272-2aa2a5359380",
+    "uiConfig" : { },
+    "nodes" : {
+      "77fa7742-c493-442a-b617-d43d51fdc7c8" : {
+        "displayName" : "Device Profile Collector",
+        "nodeType" : "DeviceProfileCollectorNode",
+        "x" : 356,
+        "y" : 72,
+        "connections" : {
+          "outcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "383526f6-ff73-4e26-9272-2aa2a5359380" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 51,
+        "y" : 183,
+        "connections" : {
+          "outcome" : "77fa7742-c493-442a-b617-d43d51fdc7c8"
+        }
+      }
+    },
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 671,
+        "y" : 85
+      }
+    }
+  }
+}

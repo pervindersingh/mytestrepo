@@ -1,0 +1,47 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "PlatformLogin",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "PlatformLogin",
+    "description" : "Platform Login Tree",
+    "uiConfig" : { },
+    "entryNodeId" : "453a1f66-3211-4052-b2b2-b7d5a71aba25",
+    "nodes" : {
+      "453a1f66-3211-4052-b2b2-b7d5a71aba25" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "connections" : {
+          "outcome" : "16cdb6ff-cbc2-43e4-9f92-89e8e4973798"
+        }
+      },
+      "16cdb6ff-cbc2-43e4-9f92-89e8e4973798" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "connections" : {
+          "true" : "d1084d9d-dcde-49cd-8e38-4b81b3ee50d2",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "d1084d9d-dcde-49cd-8e38-4b81b3ee50d2" : {
+        "displayName" : "Increment Login Count",
+        "nodeType" : "IncrementLoginCountNode",
+        "connections" : {
+          "outcome" : "0aa939f7-1f74-44bf-8923-1bfc75996564"
+        }
+      },
+      "0aa939f7-1f74-44bf-8923-1bfc75996564" : {
+        "displayName" : "Inner Tree Evaluator",
+        "nodeType" : "InnerTreeEvaluatorNode",
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}

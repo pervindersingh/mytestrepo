@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "GetSessionData",
+    "entityId" : "80d82334-a8b9-46ef-90c1-56eff224e9e9",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "80d82334-a8b9-46ef-90c1-56eff224e9e9",
+    "sharedStateKey" : "userName",
+    "sessionDataKey" : "UserToken",
+    "_type" : {
+      "_id" : "SessionDataNode",
+      "name" : "Get Session Data",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

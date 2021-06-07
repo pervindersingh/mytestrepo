@@ -1,0 +1,34 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "LdapModule",
+    "entityId" : "LDAP",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "LDAP",
+    "authenticationLevel" : 0,
+    "openam-auth-ldap-connection-mode" : "LDAPS",
+    "connectionHeartbeatInterval" : 10,
+    "primaryLdapServer" : [ "openam.example.com:50636" ],
+    "searchScope" : "SUBTREE",
+    "returnUserDN" : true,
+    "profileAttributeMappings" : [ ],
+    "userProfileRetrievalAttribute" : "uid",
+    "minimumPasswordLength" : "8",
+    "userBindDN" : "cn=Directory Manager",
+    "userSearchAttributes" : [ "uid" ],
+    "userSearchStartDN" : [ "dc=openam,dc=forgerock,dc=org" ],
+    "secondaryLdapServer" : [ ],
+    "trustAllServerCertificates" : false,
+    "operationTimeout" : 0,
+    "connectionHeartbeatTimeUnit" : "SECONDS",
+    "beheraPasswordPolicySupportEnabled" : true,
+    "_type" : {
+      "_id" : "ldap",
+      "name" : "LDAP",
+      "collection" : true
+    }
+  }
+}

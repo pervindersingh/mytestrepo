@@ -1,0 +1,65 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "Authentication",
+    "entityId" : "Authentication",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "trees" : {
+      "authenticationSessionsWhitelist" : false,
+      "suspendedAuthenticationTimeout" : 5,
+      "authenticationSessionsMaxDuration" : 5,
+      "authenticationSessionsStateManagement" : "JWT"
+    },
+    "general" : {
+      "userStatusCallbackPlugins" : [ ],
+      "statelessSessionsEnabled" : false,
+      "identityType" : [ "user", "agent" ],
+      "defaultAuthLevel" : 0,
+      "twoFactorRequired" : false,
+      "locale" : "en_US"
+    },
+    "accountlockout" : {
+      "loginFailureDuration" : 300,
+      "lockoutWarnUserCount" : 0,
+      "loginFailureCount" : 5,
+      "loginFailureLockoutMode" : false,
+      "storeInvalidAttemptsInDataStore" : true,
+      "lockoutDuration" : 0,
+      "lockoutDurationMultiplier" : 1
+    },
+    "postauthprocess" : {
+      "loginPostProcessClass" : [ ],
+      "usernameGeneratorClass" : "com.sun.identity.authentication.spi.DefaultUserIDGenerator",
+      "usernameGeneratorEnabled" : true,
+      "loginSuccessUrl" : [ "/openam/console" ],
+      "userAttributeSessionMapping" : [ ],
+      "loginFailureUrl" : [ ]
+    },
+    "userprofile" : {
+      "aliasAttributeName" : [ "uid" ],
+      "defaultRole" : [ ],
+      "dynamicProfileCreation" : "false"
+    },
+    "security" : {
+      "zeroPageLoginReferrerWhiteList" : [ ],
+      "zeroPageLoginAllowedWithoutReferrer" : true,
+      "keyAlias" : "test",
+      "zeroPageLoginEnabled" : false,
+      "moduleBasedAuthEnabled" : true,
+      "sharedSecret" : null
+    },
+    "core" : {
+      "adminAuthModule" : "ldapService",
+      "orgConfig" : "ldapService"
+    },
+    "_type" : {
+      "_id" : "EMPTY",
+      "name" : "Core",
+      "collection" : false
+    }
+  }
+}

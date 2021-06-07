@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "ProvisionIDMAccount",
+    "entityId" : "83d387af-deb2-41be-a95b-b9938d518dc3",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "83d387af-deb2-41be-a95b-b9938d518dc3",
+    "accountProviderClass" : "org.forgerock.openam.authentication.modules.common.mapping.DefaultAccountProvider",
+    "_type" : {
+      "_id" : "ProvisionIdmAccountNode",
+      "name" : "Provision IDM Account",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

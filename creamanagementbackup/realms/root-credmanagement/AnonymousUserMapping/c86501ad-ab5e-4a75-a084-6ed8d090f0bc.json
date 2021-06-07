@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AnonymousUserMapping",
+    "entityId" : "c86501ad-ab5e-4a75-a084-6ed8d090f0bc",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "c86501ad-ab5e-4a75-a084-6ed8d090f0bc",
+    "anonymousUserName" : "anonymous",
+    "_type" : {
+      "_id" : "AnonymousUserNode",
+      "name" : "Anonymous User Mapping",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "SetPersistentCookie",
+    "entityId" : "b58ce905-5e22-4d97-b5bf-c17811cde0fd",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "b58ce905-5e22-4d97-b5bf-c17811cde0fd",
+    "useHttpOnlyCookie" : true,
+    "useSecureCookie" : false,
+    "maxLife" : 5,
+    "hmacSigningKey" : null,
+    "idleTimeout" : 5,
+    "persistentCookieName" : "session-jwt",
+    "_type" : {
+      "_id" : "SetPersistentCookieNode",
+      "name" : "Set Persistent Cookie",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "usernamerecover",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "usernamerecover",
+    "entryNodeId" : "e301438c-0bd0-429c-ab0c-66126501069a",
+    "nodes" : {
+      "30cc36b3-ab89-483a-8958-e2ec8e2048cd" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 248,
+        "y" : 129.33334350585938,
+        "connections" : { }
+      }
+    },
+    "uiConfig" : { },
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 50,
+        "y" : 117
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 152,
+        "y" : 25
+      }
+    }
+  }
+}

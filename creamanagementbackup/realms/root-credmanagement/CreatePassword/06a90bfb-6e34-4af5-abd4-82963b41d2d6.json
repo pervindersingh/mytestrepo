@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "CreatePassword",
+    "entityId" : "06a90bfb-6e34-4af5-abd4-82963b41d2d6",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "06a90bfb-6e34-4af5-abd4-82963b41d2d6",
+    "minPasswordLength" : 0,
+    "_type" : {
+      "_id" : "CreatePasswordNode",
+      "name" : "Create Password",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "DeviceProfileCollector",
+    "entityId" : "77fa7742-c493-442a-b617-d43d51fdc7c8",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "77fa7742-c493-442a-b617-d43d51fdc7c8",
+    "deviceLocation" : true,
+    "message" : { },
+    "maximumSize" : "3",
+    "deviceMetadata" : true,
+    "_type" : {
+      "_id" : "DeviceProfileCollectorNode",
+      "name" : "Device Profile Collector",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

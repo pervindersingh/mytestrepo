@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PageNode",
+    "entityId" : "b1224eb1-8bc8-459a-83da-0e5696bf36ce",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "b1224eb1-8bc8-459a-83da-0e5696bf36ce",
+    "stage" : "null",
+    "pageDescription" : {
+      "en" : "Enter new password"
+    },
+    "pageHeader" : {
+      "en" : "Update Password"
+    },
+    "nodes" : [ {
+      "_id" : "1ed4c496-111a-452f-a7df-201ff35880ed",
+      "nodeType" : "ValidatedPasswordNode",
+      "displayName" : "Platform Password"
+    } ],
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "Page Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PageNode",
+    "entityId" : "6b463b00-5cb6-45c6-8732-6d78d2c439ae",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "6b463b00-5cb6-45c6-8732-6d78d2c439ae",
+    "nodes" : [ {
+      "_id" : "52807d59-b73b-46d9-a86d-ce35559b6bb3",
+      "nodeType" : "ValidatedPasswordNode",
+      "displayName" : "Platform Password"
+    } ],
+    "stage" : "null",
+    "pageDescription" : {
+      "en" : "Change password"
+    },
+    "pageHeader" : {
+      "en" : "Reset Password"
+    },
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "Page Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

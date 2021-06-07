@@ -1,0 +1,49 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "FacebookProvisioning",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "FacebookProvisioning",
+    "nodes" : {
+      "0e1172a3-fe7b-4408-819f-98f8c0f3a14f" : {
+        "displayName" : "Social Facebook",
+        "nodeType" : "SocialFacebookNode",
+        "x" : 152,
+        "y" : 25,
+        "connections" : {
+          "ACCOUNT_EXISTS" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "NO_ACCOUNT" : "76f6a2f8-f0d1-4792-8636-988177a179ef"
+        }
+      },
+      "76f6a2f8-f0d1-4792-8636-988177a179ef" : {
+        "displayName" : "Provision Dynamic Account",
+        "nodeType" : "ProvisionDynamicAccountNode",
+        "x" : 327.5125045776367,
+        "y" : 47.29999923706055,
+        "connections" : {
+          "outcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    },
+    "uiConfig" : { },
+    "entryNodeId" : "0e1172a3-fe7b-4408-819f-98f8c0f3a14f",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 47.29999923706055
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 569.1500015258789,
+        "y" : 47.29999923706055
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 50,
+        "y" : 161.5999984741211
+      }
+    }
+  }
+}

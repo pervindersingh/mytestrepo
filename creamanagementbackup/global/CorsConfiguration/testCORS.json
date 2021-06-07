@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "7.1.0",
+    "entityType" : "CorsConfiguration",
+    "entityId" : "testCORS",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "testCORS",
+    "acceptedMethods" : [ "GET", "POST" ],
+    "acceptedHeaders" : [ "Content-Type", "X-Requested-With", "If-Match", "Accept-API-Version", "Authorization" ],
+    "acceptedOrigins" : [ "https://sdkapp.example.com:8443" ],
+    "allowCredentials" : true,
+    "exposedHeaders" : [ ],
+    "enabled" : true,
+    "maxAge" : 0,
+    "_type" : {
+      "_id" : "configuration",
+      "name" : "Cors Configuration",
+      "collection" : true
+    }
+  }
+}

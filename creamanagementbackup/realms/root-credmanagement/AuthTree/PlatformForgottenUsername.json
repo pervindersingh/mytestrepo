@@ -1,0 +1,47 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "PlatformForgottenUsername",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "PlatformForgottenUsername",
+    "description" : "Forgotten Username Tree",
+    "entryNodeId" : "c6b738e1-dd10-454f-a1f5-7942ad57352e",
+    "uiConfig" : { },
+    "nodes" : {
+      "c6b738e1-dd10-454f-a1f5-7942ad57352e" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "connections" : {
+          "outcome" : "cfb5b037-c502-4091-8fd6-2343db7f94c9"
+        }
+      },
+      "cfb5b037-c502-4091-8fd6-2343db7f94c9" : {
+        "displayName" : "Identify Existing User",
+        "nodeType" : "IdentifyExistingUserNode",
+        "connections" : {
+          "true" : "111df8b3-4826-4e06-939d-2bb030632ffa",
+          "false" : "111df8b3-4826-4e06-939d-2bb030632ffa"
+        }
+      },
+      "111df8b3-4826-4e06-939d-2bb030632ffa" : {
+        "displayName" : "Email Suspend",
+        "nodeType" : "EmailSuspendNode",
+        "connections" : {
+          "outcome" : "9592a6f5-cd11-4ebd-97d3-8f9fc640ed88"
+        }
+      },
+      "9592a6f5-cd11-4ebd-97d3-8f9fc640ed88" : {
+        "displayName" : "Inner Tree Evaluator",
+        "nodeType" : "InnerTreeEvaluatorNode",
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}

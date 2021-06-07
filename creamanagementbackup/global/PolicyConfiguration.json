@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PolicyConfiguration",
+    "entityId" : "PolicyConfiguration",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "realmAliasReferrals" : false,
+    "continueEvaluationOnDeny" : false,
+    "resourceComparators" : [ "serviceType=iPlanetAMWebAgentService|class=com.sun.identity.policy.plugins.HttpURLResourceName|wildcard=*|oneLevelWildcard=-*-|delimiter=/|caseSensitive=false" ],
+    "defaults" : {
+      "policyHeartbeatInterval" : 10,
+      "bindDn" : "cn=Directory Manager",
+      "ldapServer" : [ "openam.example.com:50636" ],
+      "connectionPoolMinimumSize" : 1,
+      "usersSearchAttribute" : "uid",
+      "userAliasEnabled" : false,
+      "usersSearchFilter" : "(objectclass=inetorgperson)",
+      "searchTimeout" : 5,
+      "usersSearchScope" : "SCOPE_SUB",
+      "subjectsResultTTL" : 10,
+      "sslEnabled" : true,
+      "usersBaseDn" : "dc=openam,dc=forgerock,dc=org",
+      "connectionPoolMaximumSize" : 10,
+      "policyHeartbeatTimeUnit" : "SECONDS",
+      "maximumSearchResults" : 100,
+      "realmSearchFilter" : "(objectclass=sunismanagedorganization)",
+      "checkIfResourceTypeExists" : true
+    },
+    "_type" : {
+      "_id" : "policyconfiguration",
+      "name" : "Policy Configuration",
+      "collection" : false
+    }
+  }
+}

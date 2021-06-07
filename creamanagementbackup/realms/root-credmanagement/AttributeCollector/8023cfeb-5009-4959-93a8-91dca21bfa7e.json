@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AttributeCollector",
+    "entityId" : "8023cfeb-5009-4959-93a8-91dca21bfa7e",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "8023cfeb-5009-4959-93a8-91dca21bfa7e",
+    "required" : true,
+    "validateInputs" : false,
+    "attributesToCollect" : [ "mail" ],
+    "identityAttribute" : "mail",
+    "_type" : {
+      "_id" : "AttributeCollectorNode",
+      "name" : "Attribute Collector",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

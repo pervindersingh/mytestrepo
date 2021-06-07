@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "SuccessURL",
+    "entityId" : "e0fd7cf3-9b15-42cf-8a1a-f54fece86950",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "e0fd7cf3-9b15-42cf-8a1a-f54fece86950",
+    "successUrl" : "https://www.forgerock.com/",
+    "_type" : {
+      "_id" : "SetSuccessUrlNode",
+      "name" : "Success URL",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

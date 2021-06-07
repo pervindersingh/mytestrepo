@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "EmailSuspendNode",
+    "entityId" : "22f54283-d466-41a9-a80f-43f6d994ade7",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "22f54283-d466-41a9-a80f-43f6d994ade7",
+    "emailSuspendMessage" : {
+      "en" : "An email has been sent to the address you entered. Click the link in that email to proceed."
+    },
+    "objectLookup" : true,
+    "emailAttribute" : "mail",
+    "emailTemplateName" : "resetPassword",
+    "identityAttribute" : "mail",
+    "_type" : {
+      "_id" : "EmailSuspendNode",
+      "name" : "Email Suspend Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

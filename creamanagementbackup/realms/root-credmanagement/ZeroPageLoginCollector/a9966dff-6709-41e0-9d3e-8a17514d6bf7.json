@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "ZeroPageLoginCollector",
+    "entityId" : "a9966dff-6709-41e0-9d3e-8a17514d6bf7",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "a9966dff-6709-41e0-9d3e-8a17514d6bf7",
+    "allowWithoutReferer" : true,
+    "referrerWhiteList" : [ ],
+    "passwordHeader" : "X-OpenAM-Password",
+    "usernameHeader" : "X-OpenAM-Username",
+    "_type" : {
+      "_id" : "ZeroPageLoginNode",
+      "name" : "Zero Page Login Collector",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "true",
+      "displayName" : "Has Credentials"
+    }, {
+      "id" : "false",
+      "displayName" : "No Credentials"
+    } ]
+  }
+}

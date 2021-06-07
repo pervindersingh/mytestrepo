@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PageNode",
+    "entityId" : "4d0294d3-a979-4fcf-9a29-e98ba8e26d94",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "4d0294d3-a979-4fcf-9a29-e98ba8e26d94",
+    "stage" : "null",
+    "pageHeader" : {
+      "en" : "Verify Existing Password"
+    },
+    "nodes" : [ {
+      "_id" : "4c807fe6-abb1-4e0f-abe9-cdb9d10342db",
+      "nodeType" : "ValidatedPasswordNode",
+      "displayName" : "Platform Password"
+    } ],
+    "pageDescription" : {
+      "en" : "Enter current password"
+    },
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "Page Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

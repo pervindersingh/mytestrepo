@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "Agent",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "Agent",
+    "description" : "null",
+    "entryNodeId" : "f3249bb0-1fea-4b68-aa92-890e0a37f8f7",
+    "uiConfig" : { },
+    "nodes" : {
+      "2db8e3ce-e08a-4766-b0e2-286159e89b91" : {
+        "displayName" : "Agent Data Store Decision",
+        "nodeType" : "AgentDataStoreDecisionNode",
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "f3249bb0-1fea-4b68-aa92-890e0a37f8f7" : {
+        "displayName" : "Zero Page Login Collector",
+        "nodeType" : "ZeroPageLoginNode",
+        "connections" : {
+          "true" : "2db8e3ce-e08a-4766-b0e2-286159e89b91",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}

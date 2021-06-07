@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PlatformPassword",
+    "entityId" : "3be10c72-a53e-4317-b78f-a5d25671f2c2",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "3be10c72-a53e-4317-b78f-a5d25671f2c2",
+    "validateInput" : false,
+    "passwordAttribute" : "password",
+    "_type" : {
+      "_id" : "ValidatedPasswordNode",
+      "name" : "Platform Password",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

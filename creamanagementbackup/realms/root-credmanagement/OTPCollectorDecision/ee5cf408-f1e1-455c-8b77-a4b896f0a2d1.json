@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "OTPCollectorDecision",
+    "entityId" : "ee5cf408-f1e1-455c-8b77-a4b896f0a2d1",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "ee5cf408-f1e1-455c-8b77-a4b896f0a2d1",
+    "passwordExpiryTime" : 5,
+    "_type" : {
+      "_id" : "OneTimePasswordCollectorDecisionNode",
+      "name" : "OTP Collector Decision",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "true",
+      "displayName" : "True"
+    }, {
+      "id" : "false",
+      "displayName" : "False"
+    } ]
+  }
+}

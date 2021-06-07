@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "IdRepository",
+    "entityId" : "IdRepository",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "sunIdRepoAttributeValidator" : [ "class=com.sun.identity.idm.server.IdRepoAttributeValidatorImpl", "minimumPasswordLength=8", "usernameInvalidChars=*|(|)|&|!" ],
+    "sunIdRepoAttributeCombiner" : "com.iplanet.am.sdk.AttributeCombiner",
+    "_type" : {
+      "_id" : "id-repositories",
+      "name" : "sunIdentityRepositoryService",
+      "collection" : false
+    }
+  }
+}

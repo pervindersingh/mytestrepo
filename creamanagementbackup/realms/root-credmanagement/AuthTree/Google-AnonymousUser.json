@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "Google-AnonymousUser",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "Google-AnonymousUser",
+    "description" : "null",
+    "nodes" : {
+      "c86501ad-ab5e-4a75-a084-6ed8d090f0bc" : {
+        "displayName" : "Map to Anonymous User",
+        "nodeType" : "AnonymousUserNode",
+        "connections" : {
+          "outcome" : "e0fd7cf3-9b15-42cf-8a1a-f54fece86950"
+        }
+      },
+      "e0fd7cf3-9b15-42cf-8a1a-f54fece86950" : {
+        "displayName" : "Set Success URL",
+        "nodeType" : "SetSuccessUrlNode",
+        "connections" : {
+          "outcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "2d64b987-6e29-4f38-99fe-13e2648f6f11" : {
+        "displayName" : "Google Social Authentication",
+        "nodeType" : "SocialGoogleNode",
+        "connections" : {
+          "NO_ACCOUNT" : "c86501ad-ab5e-4a75-a084-6ed8d090f0bc",
+          "ACCOUNT_EXISTS" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    },
+    "entryNodeId" : "2d64b987-6e29-4f38-99fe-13e2648f6f11",
+    "uiConfig" : { }
+  }
+}

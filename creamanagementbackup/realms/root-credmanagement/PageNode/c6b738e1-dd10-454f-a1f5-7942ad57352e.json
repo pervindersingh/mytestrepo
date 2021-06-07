@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "PageNode",
+    "entityId" : "c6b738e1-dd10-454f-a1f5-7942ad57352e",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "c6b738e1-dd10-454f-a1f5-7942ad57352e",
+    "stage" : "null",
+    "pageHeader" : {
+      "en" : "Forgotten Username"
+    },
+    "nodes" : [ {
+      "_id" : "8023cfeb-5009-4959-93a8-91dca21bfa7e",
+      "nodeType" : "AttributeCollectorNode",
+      "displayName" : "Attribute Collector"
+    } ],
+    "pageDescription" : {
+      "en" : "Enter your email address or <a href=\"#/service/PlatformLogin\">Sign in</a>"
+    },
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "Page Node",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

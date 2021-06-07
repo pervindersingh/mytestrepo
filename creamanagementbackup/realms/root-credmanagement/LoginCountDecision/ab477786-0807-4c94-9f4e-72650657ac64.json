@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "LoginCountDecision",
+    "entityId" : "ab477786-0807-4c94-9f4e-72650657ac64",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "ab477786-0807-4c94-9f4e-72650657ac64",
+    "amount" : 3,
+    "interval" : "AT",
+    "identityAttribute" : "userName",
+    "_type" : {
+      "_id" : "LoginCountDecisionNode",
+      "name" : "Login Count Decision",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "true",
+      "displayName" : "True"
+    }, {
+      "id" : "false",
+      "displayName" : "False"
+    } ]
+  }
+}

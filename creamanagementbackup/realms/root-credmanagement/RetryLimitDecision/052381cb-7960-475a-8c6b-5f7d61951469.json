@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "RetryLimitDecision",
+    "entityId" : "052381cb-7960-475a-8c6b-5f7d61951469",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "052381cb-7960-475a-8c6b-5f7d61951469",
+    "retryLimit" : 3,
+    "_type" : {
+      "_id" : "RetryLimitDecisionNode",
+      "name" : "Retry Limit Decision",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "Retry",
+      "displayName" : "Retry"
+    }, {
+      "id" : "Reject",
+      "displayName" : "Reject"
+    } ]
+  }
+}

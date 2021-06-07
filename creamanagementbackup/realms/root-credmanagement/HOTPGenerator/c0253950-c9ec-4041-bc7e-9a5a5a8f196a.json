@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "HOTPGenerator",
+    "entityId" : "c0253950-c9ec-4041-bc7e-9a5a5a8f196a",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "c0253950-c9ec-4041-bc7e-9a5a5a8f196a",
+    "length" : 8,
+    "_type" : {
+      "_id" : "OneTimePasswordGeneratorNode",
+      "name" : "HOTP Generator",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "outcome",
+      "displayName" : "Outcome"
+    } ]
+  }
+}

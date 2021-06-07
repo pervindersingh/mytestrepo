@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "InnerTreeEvaluator",
+    "entityId" : "9592a6f5-cd11-4ebd-97d3-8f9fc640ed88",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "9592a6f5-cd11-4ebd-97d3-8f9fc640ed88",
+    "tree" : "PlatformLogin",
+    "_type" : {
+      "_id" : "InnerTreeEvaluatorNode",
+      "name" : "Inner Tree Evaluator",
+      "collection" : true
+    },
+    "_outcomes" : [ {
+      "id" : "true",
+      "displayName" : "True"
+    }, {
+      "id" : "false",
+      "displayName" : "False"
+    } ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "Example",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "Example",
+    "description" : "null",
+    "nodes" : {
+      "73c25ca7-0285-495f-af5b-3012ee84b33c" : {
+        "displayName" : "User Name Collector",
+        "nodeType" : "UsernameCollectorNode",
+        "connections" : {
+          "outcome" : "8db1a0dd-45bd-4da5-bc5b-f8a9a4a9fbd6"
+        }
+      },
+      "8db1a0dd-45bd-4da5-bc5b-f8a9a4a9fbd6" : {
+        "displayName" : "Password Collector",
+        "nodeType" : "PasswordCollectorNode",
+        "connections" : {
+          "outcome" : "d8c16872-c7a5-48b5-98ee-2e8db8c7f2c2"
+        }
+      },
+      "d8c16872-c7a5-48b5-98ee-2e8db8c7f2c2" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "a9966dff-6709-41e0-9d3e-8a17514d6bf7" : {
+        "displayName" : "Zero Page Login Collector",
+        "nodeType" : "ZeroPageLoginNode",
+        "connections" : {
+          "true" : "d8c16872-c7a5-48b5-98ee-2e8db8c7f2c2",
+          "false" : "73c25ca7-0285-495f-af5b-3012ee84b33c"
+        }
+      }
+    },
+    "uiConfig" : { },
+    "entryNodeId" : "a9966dff-6709-41e0-9d3e-8a17514d6bf7"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "metadata" : {
+    "realm" : "/credmanagement",
+    "amsterVersion" : "7.1.0",
+    "entityType" : "AuthTree",
+    "entityId" : "sdkAuthenticationTree",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "sdkAuthenticationTree",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 75
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 556.2291717529297,
+        "y" : 108.5
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 556.2291717529297,
+        "y" : 41.5
+      }
+    },
+    "uiConfig" : { },
+    "entryNodeId" : "4a78e3ce-28de-441a-9c1e-376614d3b586",
+    "nodes" : {
+      "4a78e3ce-28de-441a-9c1e-376614d3b586" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 152,
+        "y" : 25,
+        "connections" : {
+          "outcome" : "e81d87db-bf68-4f46-8654-e8f111c18cac"
+        }
+      },
+      "e81d87db-bf68-4f46-8654-e8f111c18cac" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 360,
+        "y" : 53,
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}
